@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма додавання викладача</title>
+</head>
+<body>
+    <h2>Додавання викладача</h2>
+    <form>
+        <label for="full_name">Повне ім'я:</label><br>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+
+        <label for="gender">Стать:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Чоловіча</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Жіноча</label><br><br>
+
+        <label for="date_of_birth">Дата народження:</label><br>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="background_color">Бажаний колір фону:</label><br>
+        <input type="color" id="background_color" name="background_color" required><br><br>
+
+        <label for="country">Країна:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="city">Місто:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="comment">Коментар:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit" value="Додати">
+    </form>
+</body>
+</html>
